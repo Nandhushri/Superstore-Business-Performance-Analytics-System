@@ -1,91 +1,76 @@
-## Project Overview
+# Superstore Sales Analysis (Excel & SQL)
 
-This project focuses on analyzing business performance using the Superstore dataset by integrating SQL-based data modeling, Python-driven exploratory data analysis, machine learning.
-The goal is to derive actionable insights related to sales trends, customer behavior, profitability, and future performance to support data-driven business decision-making.
+##  Project Overview
+This project focuses on analyzing the Superstore sales dataset using **Excel and SQL**.  
+The goal is to understand sales performance, customer behavior, and regional trends through
+structured queries and interactive Excel dashboards.
 
-The project simulates real-world data science and analytics tasks typically handled during data analyst or data science internships.
-
----
-
-## Tools & Techniques
-
-* **SQL**: Data modeling, joins, aggregations, and analytical queries
-* **Python**: Data cleaning, EDA, feature engineering, and predictive modeling
-* **Machine Learning**: Regression, classification, and customer segmentation
-* **Excel**: Initial data validation and high-level exploration
+This project demonstrates my **data analysis fundamentals**, including data cleaning,
+SQL querying, and business insights generation.
 
 ---
 
-## Key Findings & Business Insights
-
-* Identified categories and sub-categories contributing the highest and lowest profit margins
-* Analyzed the impact of discounts on profitability and identified loss-making discount ranges
-* Segmented customers based on purchasing behavior to identify high-value customers
-* Detected products consistently generating losses despite high sales volume
-* Forecasted short-term sales trends to support planning and inventory decisions
+##  Tools & Technologies
+- **Excel** – Pivot Tables, Charts, Dashboards, Time-Series Analysis
+- **SQL (MySQL)** – Data extraction, aggregation, joins, filtering
+- **GitHub** – Version control and project documentation
 
 ---
 
-## Repository Contents
-
-```
-superstore-business-analytics/
-│
-├── data/
-│   ├── raw/
-│   │   └── superstore_raw.xlsx
-│   ├── processed/
-│   │   └── superstore_cleaned.csv
-│
-├── sql/
-│   ├── schema.sql
-│   └── analysis_queries.sql
-│
-├── notebooks/
-│   └── eda_feature_engineering.ipynb
-│
-├── models/
-│   └── sales_forecasting.ipynb
-│
-├── excel/
-│   └── initial_exploration.xlsx
-│
-├── README.md
-└── requirements.txt
-```
+##  Dataset
+- **Source:** Superstore Sales Dataset  
+- **Data Includes:**  
+  - Orders, Customers, Products  
+  - Sales, Profit, Quantity  
+  - Region, Category, Sub-Category  
+  - Order Date, Ship Date, Ship Mode  
 
 ---
 
-## Project Workflow
+##  SQL Analysis Performed
+- Sales and profit analysis by:
+  - Region
+  - Category & Sub-Category
+  - Year and Month
+- Top-performing and low-performing products
+- Customer segmentation analysis
+- Order and shipping performance analysis
 
-1. Performed initial data validation and quick exploration using Excel
-2. Designed relational data schema and executed analytical queries using SQL
-3. Conducted exploratory data analysis and feature engineering using Python
-4. Built machine learning models for sales forecasting and classification tasks
-
----
-
-## Business Questions Addressed
-
-* Which categories and regions drive the most profit?
-* How do discounts impact overall profitability?
-* Who are the most valuable customers?
-* Which products consistently generate losses?
-* What are the expected short-term sales trends?
+All SQL queries are available in the `SQL_Queries/` folder.
 
 ---
 
-## Future Refinements (Next Steps)
+##  Excel Analysis & Dashboard
+- Data cleaning and formatting
+- Pivot Tables for:
+  - Sales & Profit trends
+  - Category-wise performance
+  - Regional comparison
+- Interactive dashboard with:
+  - Filters (Year, Region, Category)
+  - Time-series charts
+  - KPI summaries
 
-* Integrate NLP-based customer review analysis to link sentiment with sales trends
-* Automate data ingestion using scheduled pipelines
-* Enhance forecasting models with external factors such as seasonality and promotions
-* Deploy dashboards using Power BI Service for real-time monitoring
+Excel files are available in the `Excel_Dashboard/` folder.
 
 ---
 
-## Author
-
-**D S Nandhushri**
+## Key Insights
+- Certain regions consistently generate higher profits
+- A few sub-categories contribute to most losses
+- Seasonal trends impact sales volume
+- Shipping mode affects delivery efficiency and profitability
 
 ---
+
+## Scope for improvement:
+- Power BI / Tableau dashboard
+- Advanced SQL optimization
+- Predictive analysis using Python (future work)
+
+---
+
+## 👤 Author
+**D S Nandhushri**  
+Aspiring Data Analyst  
+
